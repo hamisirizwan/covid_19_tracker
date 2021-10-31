@@ -90,14 +90,13 @@ function SearchForm() {
         className="card"
       >
         <h3>COUNRY: {info.country}</h3>
-        {/* <div>
-          <h3>FLAG:</h3>
+        <div>
           <img
             src={background}
             alt="not loaded"
             style={{ height: "50px", width: "100%" }}
           ></img>
-        </div> */}
+        </div>
         <h3>total cases:{info.cases}</h3>
         <h3>total deaths :{info.deaths}</h3>
         <h3>total recovered:{info.recovered}</h3>
